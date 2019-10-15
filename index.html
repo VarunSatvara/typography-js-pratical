@@ -68,11 +68,24 @@
         }
         
         .fas {
-            font-size: 20px;
+            font-size: 30px;
         }
         
         .text-h1 {
             font-size: 40px;
+        }
+        
+        .btn-upper,
+        .btn-lower {
+            background-color: #800080;
+        }
+        
+        .btn-upper:active,
+        .btn-lower:active {
+            outline: none;
+            transform: translateY(4px);
+            box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+            border-bottom: none;
         }
     </style>
 </head>
@@ -107,6 +120,10 @@
                             <button class="box-btn  rounded-circle" onclick="minus()" id="sub">
                                  <i class="fas fa-minus text-white"></i>
                             </button>
+                        </div>
+                        <div class="col-12 text-center py-5">
+                            <button onclick="uppercase()" class="btn-upper text-white border-0 py-3 px-5 mr-5">Upper</button>
+                            <button onclick="lowercase()" class="btn-lower text-white border-0 py-3 px-5">Lower</button>
                         </div>
                     </div>
                 </div>

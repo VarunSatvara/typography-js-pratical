@@ -36,3 +36,14 @@ function minus() {
 
     outputElement.style.fontSize = computedFontSize + "px";
 }
+
+function uppercase() {
+    var header = document.getElementById("output");
+    header.innerHTML = header.innerHTML.toUpperCase();
+
+}
+
+function lowercase() {
+    var header = document.getElementById("output");
+    header.innerHTML = header.innerHTML.toLowerCase();
+}
