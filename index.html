@@ -13,84 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Grenze|Pacifico&display=swap" rel="stylesheet">
-    <style>
-        .btn-red {
-            background-color: #f53b57;
-        }
-        
-        .btn-grass {
-            background-color: #009432;
-        }
-        
-        .btn-blue {
-            background-color: #1B1464;
-        }
-        
-        .btn-md-blue {
-            background-color: #2c3e50;
-        }
-        
-        .btn-yellow {
-            background-color: #f1c40f;
-            outline: none;
-        }
-        
-        .btn-red:focus:active,
-        .btn-grass:focus:active,
-        .btn-blue:focus:active,
-        .btn-md-blue:focus:active,
-        .btn-yellow:focus:active {
-            outline: none;
-            transform: translateY(4px);
-            box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
-            border-style: none;
-        }
-        
-        .box-btn {
-            height: 100px;
-            width: 100px;
-            border: 0;
-            display: inline-block;
-            padding: 0.5em 1em;
-            background: #668ad8;
-            color: #4868ad;
-            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
-            border-bottom: solid 1px #627295;
-            text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
-        }
-        
-        .box-btn:focus {
-            outline: 0;
-        }
-        
-        .box-btn:active {
-            outline: none;
-            transform: translateY(4px);
-            box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
-            border-bottom: none;
-        }
-        
-        .fas {
-            font-size: 30px;
-        }
-        
-        .text-h1 {
-            font-size: 40px;
-        }
-        
-        .btn-upper,
-        .btn-lower {
-            background-color: #800080;
-        }
-        
-        .btn-upper:active,
-        .btn-lower:active {
-            outline: none;
-            transform: translateY(4px);
-            box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
-            border-bottom: none;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -128,7 +51,7 @@
                             <button onclick="uppercase()" class="btn-upper text-white border-0 py-3 px-5 mr-md-5">Upper</button>
                             <button onclick="lowercase()" class="btn-lower text-white border-0 py-3 px-5">Lower</button>
                         </div>
-                        <div class="col-12 text-center">
+                        <div class="col-12 text-center py-5">
                             <select id="input-font" class="input" onchange="changeFont (this);">
                             <option value="Grenze">Grenze</option>
                             <option value="Comic Sans MS">Comic Sans MS</option>
