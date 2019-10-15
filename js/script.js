@@ -47,3 +47,7 @@ function lowercase() {
     var header = document.getElementById("output");
     header.innerHTML = header.innerHTML.toLowerCase();
 }
+
+function changeFont(font) {
+    document.getElementById("output").style.fontFamily = font.value;
+}
