@@ -47,7 +47,18 @@ function lowercase() {
     var header = document.getElementById("output");
     header.innerHTML = header.innerHTML.toLowerCase();
 }
-
-function changeFont(font) {
-    document.getElementById("output").style.fontFamily = font.value;
+document.getElementById("grenze").onclick = function() {
+    document.getElementById("output").style.fontFamily = 'Grenze';
+}
+document.getElementById("comic").onclick = function() {
+    document.getElementById("output").style.fontFamily = 'Comic Sans MS';
+}
+document.getElementById("Indie Flower").onclick = function() {
+    document.getElementById("output").style.fontFamily = 'Indie Flower';
+}
+document.getElementById("pacifico").onclick = function() {
+    document.getElementById("output").style.fontFamily = 'Pacifico';
+}
+document.getElementById("Orbitron").onclick = function() {
+    document.getElementById("output").style.fontFamily = "Orbitron";
 }

@@ -10,6 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Grenze|Pacifico&display=swap" rel="stylesheet">
@@ -22,7 +23,7 @@
             <div class="col-12">
                 <div class="calc d-flex justify-content-center">
                     <div class="row">
-                        <div class="col-12 py-5">
+                        <div class="col-12 py-5 h-30">
                             <div class="text-center">
                                 <h1 class="font-weight-normal py-2 text-h1" id="output">Some Things Is Wrong</h1>
                             </div>
@@ -52,13 +53,17 @@
                             <button onclick="lowercase()" class="btn-lower text-white border-0 py-3 px-5">Lower</button>
                         </div>
                         <div class="col-12 text-center py-5">
-                            <select id="input-font" class="input" onchange="changeFont (this);">
-                            <option value="Grenze">Grenze</option>
-                            <option value="Comic Sans MS">Comic Sans MS</option>
-                            <option value="verdana">verdana</option>
-                            <option value="Indie Flower">flower</option>
-                            <option value='Pacifico'>Pacifico</option>
-                            </select>
+                            <button type="button" class="border-0 text-white btn-grenze py-3 px-5 m-2 m-md-0" id="grenze"> Grenze
+                            </button>
+                            <button type="button" class="border-0 text-white btn-comic py-3 px-5 m-2 m-md-0" id="comic"> Comic Sans
+                            </button>
+                            <button type="button" class="border-0 text-white btn-flower
+                            py-3 px-5 m-2 m-md-0" id="Indie Flower"> Indie Flower
+                            </button>
+                            <button type="button" class="border-0 text-white btn-pacifico py-3 px-5 m-2 m-md-0" id="pacifico"> Pacifico
+                            </button>
+                            <button type="button" class="border-0 text-white btn-oribiton py-3 px-5 m-2 m-md-0" id="Orbitron"> Orbitron
+                            </button>
                         </div>
                     </div>
                 </div>
