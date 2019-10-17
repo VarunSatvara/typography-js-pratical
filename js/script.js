@@ -31,6 +31,7 @@ function add() {
     computedFontSize = computedFontSize + 1;
 
     outputElement.style.fontSize = computedFontSize + "px";
+    document.getElementById('fontsizeitem').innerHTML = computedFontSize + "px";
 }
 
 function minus() {
@@ -40,6 +41,8 @@ function minus() {
     computedFontSize = computedFontSize - 1;
 
     outputElement.style.fontSize = computedFontSize + "px";
+    document.getElementById('fontsizeitem').innerHTML = computedFontSize + "px";
+
 }
 
 function uppercase() {
