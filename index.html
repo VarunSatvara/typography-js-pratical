@@ -18,64 +18,100 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container py-2">
         <div class="row">
-            <div class="col-12">
+            <div class="col-2 py-5 d-flex align-items-center">
+                <div class=" ">
+                    <h1 class="font-weight-normal py-2 text-h1" id="output">Sample</h1>
+                </div>
+            </div>
+            <div class="col-7">
                 <div class="calc d-flex justify-content-center">
-                    <div class="row">
-                        <div class="col-12 py-5 h-30">
-                            <div class="text-center">
-                                <h1 class="font-weight-normal py-2 text-h1" id="output">Some Things Is Wrong</h1>
-                            </div>
-                        </div>
-                        <div class="col-12 text-center">
+                    <div class="row justify-content-center">
+                        <div class="col-4">
                             <button type="button" class="border-0 text-white btn-red py-3           px-5 m-2 m-md-0" id="red" onclick="test()"> RED
                             </button>
+                        </div>
+                        <div class="col-4">
                             <button type="button" class="border-0 text-white btn-grass py-3           px-5 m-2 m-md-0" id="grass"> GRASS
                              </button>
+                        </div>
+                        <div class="col-4">
                             <button type="button" class="border-0 text-white btn-blue py-3           px-5 m-2 m-md-0" id="blue"> BLUE
                             </button>
+                        </div>
+                        <div class="col-4">
                             <button type="button" class="border-0 text-white btn-md-blue py-3 px-5 m-2 m-md-0" id="md-blue"> Dark
+                            </button>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="border-0 text-white btn-yellow py-3           px-5 m-2 m-md-0" id="yellow"> yellow</button>
+                        </div>
+                        <div class="col-12 text-center py-5">
+                            <div class="row justify-content-center">
+                                <div class="col-4">
+                                    <button class="box-btn rounded-circle" onclick="add()" id="sum">
+                                                <i class="fas fa-plus text-white"></i>
+                                     </button>
+                                </div>
+                                <div class="col-4">
+                                    <button class="box-btn  rounded-circle" onclick="minus()" id="sub">
+                                                <i class="fas fa-minus text-white"></i>
                                     </button>
-                            <button type="button" class="border-0 text-white btn-yellow py-3           px-5 m-2 m-md-0" id="yellow"> yellow
-                                        </button>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-12 text-center py-5">
-                            <button class="box-btn rounded-circle mr-5" onclick="add()" id="sum">
-                                        <i class="fas fa-plus text-white"></i>
-                             </button>
-                            <button class="box-btn  rounded-circle" onclick="minus()" id="sub">
-                                 <i class="fas fa-minus text-white"></i>
-                            </button>
+                            <div class="row justify-content-center">
+                                <div class="col-4">
+                                    <button onclick="uppercase()" class="btn-upper text-white border-0 py-3 px-5 mr-md-5">Upper</button>
+                                </div>
+                                <div class="col-4">
+                                    <button onclick="lowercase()" class="btn-lower text-white border-0 py-3 px-5">Lower</button>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-12 text-center py-5">
-                            <button onclick="uppercase()" class="btn-upper text-white border-0 py-3 px-5 mr-md-5">Upper</button>
-                            <button onclick="lowercase()" class="btn-lower text-white border-0 py-3 px-5">Lower</button>
+                            <div class="row justify-content-center">
+                                <div class="col-4">
+                                    <button type="button" class="border-0 text-white btn-grenze py-3 px-5 m-2 m-md-0" id="grenze"> Grenze
+                                    </button>
+                                </div>
+                                <div class="col-4">
+                                    <button type="button" class="border-0 text-white btn-comic py-3 px-5 m-2 m-md-0" id="comic"> Comic Sans
+                                    </button>
+                                </div>
+                                <div class="col-4">
+                                    <button type="button" class="border-0 text-white btn-flower
+                                        py-3 px-5 m-2 m-md-0" id="Indie Flower"> Indie Flower
+                                    </button>
+                                </div>
+                                <div class="col-4">
+                                    <button type="button" class="border-0 text-white btn-pacifico py-3 px-5 m-2 m-md-0" id="pacifico"> Pacifico
+                                    </button>
+                                </div>
+                                <div class="col-4">
+                                    <button type="button" class="border-0 text-white btn-oribiton py-3 px-5 m-2 m-md-0" id="Orbitron"> Orbitron
+                                   </button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-12 text-center py-5">
-                            <button type="button" class="border-0 text-white btn-grenze py-3 px-5 m-2 m-md-0" id="grenze"> Grenze
-                            </button>
-                            <button type="button" class="border-0 text-white btn-comic py-3 px-5 m-2 m-md-0" id="comic"> Comic Sans
-                            </button>
-                            <button type="button" class="border-0 text-white btn-flower
-                            py-3 px-5 m-2 m-md-0" id="Indie Flower"> Indie Flower
-                            </button>
-                            <button type="button" class="border-0 text-white btn-pacifico py-3 px-5 m-2 m-md-0" id="pacifico"> Pacifico
-                            </button>
-                            <button type="button" class="border-0 text-white btn-oribiton py-3 px-5 m-2 m-md-0" id="Orbitron"> Orbitron
-                            </button>
-                            <!-- <button type="button" class="border-0 text-white btn-oribiton py-3 px-5 m-2 m-md-0" id="change"> 
-                            </button> -->
-                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 d-flex align-items-center">
+                <div class="card border-0" style="width: 18rem;">
+                    <div class="card-body">
+                        <p><strong>color :</strong><span id="colorItem" class="px-1 text-danger"></span></p>
+                        <p><strong>text-transform :</strong><span id="transform" class="px-1 text-danger"></span></p>
+                        <p><strong>font-family :</strong> <span id="fontfamilyitem" class="px-1 text-danger"></span></p>
+                        <p><strong>font-size :</strong> <span id="fontsizeitem" class="px-1 text-danger"></span></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <p>color:<span id="colorItem"></span></p>
-    <p>text-transform: <span id="transform"></span></p>
-    <p>font-family: <span id="fontfamilyitem"></span></p>
-    <p>font-size: <span id="fontsizeitem"></span></p>
+
 
 
 

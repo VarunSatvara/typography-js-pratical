@@ -59,23 +59,23 @@ function lowercase() {
 }
 document.getElementById("grenze").onclick = function() {
     document.getElementById("output").style.fontFamily = 'Grenze';
-    document.getElementById('fontfamilyitem').innerHTML = 'Grenze, serif ';
+    document.getElementById('fontfamilyitem').innerHTML = '"Grenze, serif "';
 }
 document.getElementById("comic").onclick = function() {
     document.getElementById("output").style.fontFamily = 'Comic Sans MS';
-    document.getElementById('fontfamilyitem').innerHTML = 'Comic Sans MS';
+    document.getElementById('fontfamilyitem').innerHTML = '"Comic Sans"';
 }
 document.getElementById("Indie Flower").onclick = function() {
     document.getElementById("output").style.fontFamily = 'Indie Flower';
-    document.getElementById('fontfamilyitem').innerHTML = 'Indie Flower cursive';
+    document.getElementById('fontfamilyitem').innerHTML = '"Indie Flower"';
 }
 document.getElementById("pacifico").onclick = function() {
     document.getElementById("output").style.fontFamily = 'Pacifico';
-    document.getElementById('fontfamilyitem').innerHTML = 'Pacifico cursive';
+    document.getElementById('fontfamilyitem').innerHTML = '"Pacifico"';
 
 }
 document.getElementById("Orbitron").onclick = function() {
     document.getElementById("output").style.fontFamily = "Orbitron";
-    document.getElementById('fontfamilyitem').innerHTML = 'Orbitron sans-serif';
+    document.getElementById('fontfamilyitem').innerHTML = '"Orbitron"';
 
 }
